@@ -1,3 +1,10 @@
+/*
+Emit two events:
+
+MintEvent which has the id of the newly minted SuiFren object.
+BurnEvent which has the id of the SuiFren being deleted. Hint: Don't forget imports!
+*/
+
 module 0x123::sui_fren {
     use sui::object::{Self, ID, UID}; 
     use sui::transfer;
