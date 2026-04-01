@@ -7,12 +7,16 @@ module mustafa::sui_learning {
 
         let sales: u32 = 500_000;
 
-        let premium = if (sales > 500_000 && sales < 1_000_000){
+        let premium = if (sales > 500_000 && sales < 1_000_000) {
             
-            (sales * 8 ) / 100
+            (sales * 8 ) / 100 
+
         } else if (sales > 250_000) {
+
             (sales * 3) / 100
+
         } else {
+
             0
         };
 
